@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="2731df47-2da1-45e1-8727-c217fca2265d" name="UMLClassDiagram1" linkedPackageId="c47481bc-666d-4567-9e49-1b02f0062568" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="54c0112e-b94f-4c66-8a42-0d6c2183d4fa">
+      <profileInstance Id="0159a46a-bf1f-471d-8c19-f0d67d38d2ee" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="12617863-9b01-4de9-b282-6dd3f8ef49a2">
+      <profileInstance Id="b77cab52-7ab3-4dda-854e-66ce8d7fa847" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c18c51bd-f9ea-4eb8-8f37-9c3442322bb8" name="AbstractClass" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cd7e3d72-f9e3-4b26-8f5d-30d93877b337" />
+        <ownedOperationsInternal>
+          <operation Id="5c9ede64-475a-4009-b5c3-7b9ec8f041ed" name="TemplateMethod" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c7dcd57e-9025-4b8b-beee-5c03d7609adc" />
+          </operation>
+          <operation Id="3064717f-d0ed-48d3-b3e3-b6c43494da00" name="InternalOperation1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4485aa5f-80c5-4f43-a521-0cc13b639097" />
+          </operation>
+          <operation Id="bea77df3-f3c8-4b89-8d65-de028ea1d47a" name="InternalOperation2" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2f8cf561-1b26-41fa-ad5d-1a1ea38b69ac" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="396dffcd-9d12-4842-9db2-9b296bd34d5b" name="ConcreteProductA" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7facb441-88a0-45df-a79b-746a52fd8304" />
+        <generalsInternal>
+          <generalization Id="891f7c1d-3f0e-4f55-9ded-dedd39bcdf58" isSubstitutable="false">
+            <classMoniker Id="c18c51bd-f9ea-4eb8-8f37-9c3442322bb8" LastKnownName="AbstractClass" />
+            <elementDefinition Id="2e30af56-2abb-45cf-beda-1ac28f1cc336" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="30cc22e9-e9d7-47c9-8f60-67f04e2bc0fe" name="InternalOperation1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="651a9f14-ef3d-485d-be4c-2275fb48f691" />
+          </operation>
+          <operation Id="102e44a1-33fd-4aef-8687-04dae4c8e6ef" name="InternalOperation2" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0f35a379-b471-4b44-ad0c-213b5e10ca5e" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ef7718a6-3205-4243-b765-b5c164f1ef27" name="ConcreteProductB" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="32f42018-f0d3-475a-b6e6-8c9769443308" />
+        <generalsInternal>
+          <generalization Id="12677f24-47ab-47eb-923d-b572bbb188bf" isSubstitutable="false">
+            <classMoniker Id="c18c51bd-f9ea-4eb8-8f37-9c3442322bb8" LastKnownName="AbstractClass" />
+            <elementDefinition Id="ae6fb91b-1ae3-4c3e-9c43-d3f73c63db08" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="cab90ddf-f868-4c79-b9c0-406c7887a442" name="InternalOperation1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6a6c01cd-939d-4d30-afbb-5105cb910080" />
+          </operation>
+          <operation Id="26a9b534-9f86-4800-be90-15e65a9dccee" name="InternalOperation2" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="32c1b46f-4ffa-49a9-9bf0-1e686bfbb1c9" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="c47481bc-666d-4567-9e49-1b02f0062568" name="TemplateMethodPattern2015ModelingProject">
+    <elementDefinition Id="4ade270a-1a5a-4f10-9263-cd68a1765b9a" />
+  </package>
+</logicalClassDesignerModel>

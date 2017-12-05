@@ -1,0 +1,5 @@
+E:\RnDProjects\DesignPatterns\TemplateMethodPattern2015\TemplateMethodPattern2015\bin\Debug\TemplateMethodPattern2015.dll
+E:\RnDProjects\DesignPatterns\TemplateMethodPattern2015\TemplateMethodPattern2015\bin\Debug\TemplateMethodPattern2015.pdb
+E:\RnDProjects\DesignPatterns\TemplateMethodPattern2015\TemplateMethodPattern2015\obj\Debug\TemplateMethodPattern2015.csprojResolveAssemblyReference.cache
+E:\RnDProjects\DesignPatterns\TemplateMethodPattern2015\TemplateMethodPattern2015\obj\Debug\TemplateMethodPattern2015.dll
+E:\RnDProjects\DesignPatterns\TemplateMethodPattern2015\TemplateMethodPattern2015\obj\Debug\TemplateMethodPattern2015.pdb
